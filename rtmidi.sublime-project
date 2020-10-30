@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems": 
+	[ 
+		{
+			"name": "midi",
+			"working_dir": "$project_path",
+			"shell_cmd": "set CGO_ENABLED=1&go run go.cld.moe/rtmidi/tests",
+		}
+	]
+}
