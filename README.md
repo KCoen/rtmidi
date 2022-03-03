@@ -1,4 +1,3 @@
-Previous Go Midi libraries seemed to have various latency issues, because the latency imposed by the golang scheduler causes noticable latency.
-This midi library is just a thin wrapper for https://github.com/thestk/rtmidi so users can manually deal with latency concerns.
+Previous Go Midi libraries have various latency issues because of excesive Channel or Goroutine usage, this midi library allows you to mitigate that problem by just being a thin wrapper over https://github.com/thestk/rtmidi
 
 Compatible with Linux and Windows, but requires CGO
